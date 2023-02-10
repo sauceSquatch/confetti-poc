@@ -1,7 +1,7 @@
 <template>
   <div class="main-container">
     <div class="button-container">
-      <button class="party-button" @click="initConfetti()">Let's Party!</button>
+      <button class="party-button" @click="initConfetti()">SUBMIT</button>
     </div>
     <div class="confetti-container">
       <canvas id="confetti-left" ref="canvas-confetti" class="confetti"></canvas>
