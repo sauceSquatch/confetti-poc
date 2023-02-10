@@ -41,6 +41,7 @@ export default {
       this.confettiObj({
         particleCount: this.randomInRange(this.clusterCount, this.clusterCount + 33),
         spread: this.randomInRange(135, 155),
+        colors: ['#007DBA', '#B1E4E3', '#1C8195', '#7A4282', '#E03C31', '#FFB81C'],
         startingVelocity: 22,
         scalar: 1.25,
         angle: 45,
@@ -53,6 +54,7 @@ export default {
       this.confettiObj({
         particleCount: this.randomInRange(this.clusterCount, this.clusterCount + 33),
         spread: this.randomInRange(55, 95),
+        colors: ['#007DBA', '#B1E4E3', '#1C8195', '#7A4282', '#E03C31', '#FFB81C'],
         startingVelocity: 22,
         scalar: .85,
         angle: 45,
@@ -66,6 +68,7 @@ export default {
       this.confettiObj({
         particleCount: this.randomInRange(this.clusterCount, this.clusterCount + 33),
         spread: this.randomInRange(155, 200),
+        colors: ['#007DBA', '#B1E4E3', '#1C8195', '#7A4282', '#E03C31', '#FFB81C'],
         startingVelocity: 75,
         scalar: 1.25,
         angle: 135,
@@ -79,6 +82,7 @@ export default {
       this.confettiObj({
         particleCount: this.randomInRange(this.clusterCount, this.clusterCount + 33),
         spread: this.randomInRange(55, 95),
+        colors: ['#007DBA', '#B1E4E3', '#1C8195', '#7A4282', '#E03C31', '#FFB81C'],
         startingVelocity: 22,
         scalar: .85,
         angle: 135,
